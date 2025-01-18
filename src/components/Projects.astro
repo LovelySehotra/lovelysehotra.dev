@@ -1,6 +1,6 @@
 ---
 import GitHub from "./icons/GitHub.astro"
-import NextJS from "./icons/NextJS.astro"
+import Svelte from "./icons/Svelte.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
@@ -9,7 +9,7 @@ const TAGS = {
   NEXT: {
     name: "Next.js",
     class: "bg-black text-white",
-    icon: NextJS,
+    icon: Svelte,
   },
   TAILWIND: {
     name: "Tailwind CSS",
@@ -19,22 +19,15 @@ const TAGS = {
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "KandiKosmos : A Kandi festival  ",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
+      " Kandi Kosmos is a social media app for the kandi festival culture, enabling users to scan QR codes on eads, track their journey, and view associated social media posts.",
+    link: "https://app.kandikosmos.com/",
+    github: "",
+    image: "/KandiKosmos.png",
     tags: [TAGS.NEXT, TAGS.TAILWIND],
   },
-  {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
-    description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
-  },
+ 
 ]
 ---
 
